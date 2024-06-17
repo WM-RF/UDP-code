@@ -171,5 +171,5 @@ UDPClientSocket.sendto(message, (serverIP, serverPort))  # 发送第四次挥手
 print("Send fourth wave")
 
 # 关闭
-time.sleep(0.1)  # 停0.1s，模拟客户端等待关闭的过程
+time.sleep(0.5)  # 停0.5s，模拟客户端等待关闭的过程
 UDPClientSocket.close()
